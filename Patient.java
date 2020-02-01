@@ -14,19 +14,19 @@ public class Patient{
 
     // Getters
 
-    public String getFirstName(){
+     public ArrayList<String> getFirstName(){
         return this.firstName;
     }
 
-    public String getLastName(){
+    public ArrayList<String> getLastName(){
         return this.lastName;
     }
 
-    public String getBloodType(){
+    public ArrayList<String>  getBloodType(){
         return this.bloodType;
     }
 
-    public String getGender(){
+    public ArrayList<String>  getGender(){
         return this.gender;
     }
 
