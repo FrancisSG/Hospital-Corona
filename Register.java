@@ -15,7 +15,7 @@ public class Register{
 
         JPanel submit_section = new JPanel();
         JButton submit_button = new JButton("Register");
-        JButton patients_button = new JButton("Show Archive");
+        JButton patients_button = new JButton("Show Archive in Terminal");
 
         JPanel form_section = new JPanel(new GridLayout(4,1,10,10));
 
