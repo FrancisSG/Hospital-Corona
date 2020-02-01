@@ -8,11 +8,7 @@ public class Register{
     public static void main(String[] args){
 
         JFrame registration = new JFrame("Hospital Corona");
-
-        registration.setVisible(true);
-        registration.setSize(500,500);
-        registration.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+        
         JPanel submit_section = new JPanel();
         JButton submit_button = new JButton("Register");
         JButton patients_button = new JButton("Show Archive in Terminal");
@@ -135,6 +131,10 @@ public class Register{
         
         });  
 
+        // Main Frame Behaviour
+		registration.setVisible(true);
+		registration.setSize(500, 500);
+		registration.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
     }
 
 }
